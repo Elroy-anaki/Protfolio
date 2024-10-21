@@ -2,7 +2,7 @@ const projectsSection = document.querySelector("#projects-section");
 let projects;
 
 async function getProjects() {
-  const response = await fetch("/Protfolio/projects.json");
+  const response = await fetch("/Protfolio/core/projects.json");
   const data = await response.json();
   projects = data;
   buildProjects(projects);
