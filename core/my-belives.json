@@ -1,0 +1,25 @@
+[
+    {
+        "title": "Team Player",
+        "icon": "/Protfolio/media/team.png"
+    },
+    {
+        "title": "Adaptable",
+        "icon": "/Protfolio/media/adaptation.png"
+    },
+    
+    {
+        "title": "Hardworking",
+        "icon": "/Protfolio/media/work.png"
+    },
+    
+    {
+        "title": "Creative Thinker",
+        "icon": "/Protfolio/media/thinker.png"
+    },
+    
+    {
+        "title": "Lifelong Learner",
+        "icon": "/Protfolio/media/student.png"
+    }
+]

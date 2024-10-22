@@ -1,18 +1,22 @@
 const projectsSection = document.querySelector("#projects-section");
+const belivesSection = document.querySelector("#belives-section");
+const projectsPath = "/Protfolio/core/projects.json"
+const belivesPath = "/Protfolio/core/my-belives.json"
 let projects;
+let belives;
 
-async function getProjects() {
-  const response = await fetch("/Protfolio/core/projects.json");
-  const data = await response.json();
-  projects = data;
-  buildProjects(projects);
+
+async function getProjects(data, path, placeId, func) {
+  const response = await fetch(path);
+  const resData = await response.json();
+  data = resData;
+  func(data, placeId);
 }
-getProjects();
-function buildProjects(arr) {
+function buildProjects(arr, placeId) {
   console.log("HIII");
-  projectsSection.innerHTML = "";
+  placeId.innerHTML = "";
   arr.forEach((project) => {
-    projectsSection.innerHTML += `
+    placeId.innerHTML += `
         <div class="group relative w-72 m-2 border-2 border-orange-400 rounded-md">
             <img loading="lazy"
                 src="${project.Image}"
@@ -36,3 +40,24 @@ function buildProjects(arr) {
           `;
   });
 }
+
+function buildBelives(arr, placeId) {
+  placeId.innerHTML = "";
+  arr.forEach((belive) => {
+    placeId.innerHTML += `
+    <div class="relative m-3 pb-2">
+          <div class="absolute inset-x-1 bottom-0 h-1 bg-gradient-to-r from-white to-gray-400 mb-4"></div>
+          <div class="m-5">
+            <img
+              src=${belive.icon}
+              alt=""
+              class="w-full h-32 object-contain rounded-full bg-gradient-to-t from-slate-300 to-slate-600 border-2 border-x-white"
+            />
+            <p class="text-gray-100 p-4 text-xl">${belive.title}</p>
+          </div>
+        </div>
+    `
+  })
+}
+getProjects(projects, projectsPath, projectsSection, buildProjects);
+getProjects(belives, belivesPath, belivesSection, buildBelives);
