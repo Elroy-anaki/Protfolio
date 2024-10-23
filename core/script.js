@@ -1,7 +1,12 @@
+// Catch the elements
 const projectsSection = document.querySelector("#projects-section");
 const belivesSection = document.querySelector("#belives-section");
+
+// Define files' path
 const projectsPath = "/Protfolio/core/projects.json"
 const belivesPath = "/Protfolio/core/my-belives.json"
+
+// Define variables
 let projects;
 let belives;
 
@@ -12,8 +17,8 @@ async function getProjects(data, path, placeId, func) {
   data = resData;
   func(data, placeId);
 }
+
 function buildProjects(arr, placeId) {
-  console.log("HIII");
   placeId.innerHTML = "";
   arr.forEach((project) => {
     placeId.innerHTML += `
@@ -59,5 +64,6 @@ function buildBelives(arr, placeId) {
     `
   })
 }
+
 getProjects(projects, projectsPath, projectsSection, buildProjects);
 getProjects(belives, belivesPath, belivesSection, buildBelives);
