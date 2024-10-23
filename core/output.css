@@ -759,7 +759,10 @@ video {
 
 @media (max-height: 640px) {
   #down {
-    margin-top: 700px; /* הקטנת גודל הפונט במסכים נמוכים */
+    display: none; /* הקטנת גודל הפונט במסכים נמוכים */
+  }
+  #belives-section{
+    margin-top: 750px;
   }
 }
 
