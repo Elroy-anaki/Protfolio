@@ -26,11 +26,11 @@
 
     <title>Elroy Anaki - Protfolio</title>
   </head>
-  <body class="bg-indigo-900">
-    <header class="bg-indigo-950 flex justify-between">
-      <ul class="flex items-end gap-2 w-3/5 ml-5">
+  <body class="bg-indigo-900 max-sm:bg-indigo-900 max-sm:mb-10">
+    <header class="bg-indigo-950 flex justify-between max-sm:bg-violet-900">
+      <ul class="flex items-end gap-2 w-3/5 ml-5 mt-5 max-sm:flex-col max-sm:w-full max-sm:ml-0 max-sm:justify-center max-sm:items-center">
         <li
-          class="font-sans text-xl m-4 font-medium tracking-wide text-center text-white bg-red-900 rounded-xl shadow-md shadow-red-800 p-2 transition ease-in-out delay-150 hover:bg-red-700 hover:-translate-y-1 duration-300"
+          class="font-sans text-xl font-medium text-center text-white bg-red-900 rounded-xl shadow-md shadow-red-800 p-2 transition ease-in-out delay-150 hover:bg-red-700 hover:-translate-y-1 duration-300 max-sm:w-full max-sm:rounded-sm"
         >
           <a
             href="/Protfolio/media/Elroy-Anaki-CV.pdf"
@@ -39,30 +39,32 @@
           >
         </li>
         <li
-          class="font-sans text-xl m-4 font-medium tracking-wide text-center text-white shadow hover:text-orange-400 p-2 under-line"
+          class="font-sans text-xl font-medium tracking-wide text-center text-white shadow hover:text-orange-400 p-2 under-line max-sm:border-b-2 border-b-white max-sm:w-full"
         >
           <a href="#About-Me">About Me </a>
         </li>
         <li
-          class="font-sans text-xl m-4 font-medium tracking-wide text-center text-white shadow hover:text-orange-400 p-2 under-line"
+          class="font-sans text-xl font-medium tracking-wide text-center text-white shadow hover:text-orange-400 p-2 under-line  max-sm:border-b-2 border-b-white max-sm:w-full"
         >
           <a href="#Projects">Projects </a>
         </li>
         <li
-          class="font-sans text-xl m-4 font-medium tracking-wide text-center text-white shadow hover:text-orange-400 p-2 under-line"
+          class="font-sans text-xl font-medium tracking-wide text-center text-white shadow hover:text-orange-400 p-2 under-line  max-sm:border-b-2 border-b-white max-sm:w-full"
         >
           <a href="#Contact">Contact </a>
         </li>
       </ul>
     </header>
     <main>
-      <section class="bg-gradient-to-b from-indigo-950 to-indigo-700">
+      <section
+        class="bg-gradient-to-b from-indigo-950 to-indigo-700 max-sm:bg-none"
+      >
         <div
           id="About-Me"
-          class="flex justify-center items-center gap-24 w-3/4 m-auto"
-          style="height: 550px"
+          class="flex justify-center items-center gap-24 w-3/4 m-auto max-sm:flex-wrap max-sm:mb-64"
+          style="height: 600px"
         >
-          <div>
+          <div class="max-sm:text-center">
             <h2
               class="text-7xl m-1.5 bg-gradient-to-r from-white to-black-900 bg-clip-text text-transparent"
             >
@@ -71,27 +73,38 @@
             <h4 class="text-4xl m-1.5 text-magic text-orange-400">
               I'm a Software Developer <i class="fa-solid fa-code"></i>
             </h4>
-            <p class="text-lg ml-1.5 mt-5 text-white">
-              I'm a software developer with a passion for creating efficient,
-              user-friendly web applications.
+            <p class="text-xl ml-1.5 mt-5 font-bold text-white">
+              Welcome to my portfolio! Here you can discover my passion for web
+              and application development.
               <i class="fa-regular fa-face-smile"></i>
             </p>
-            <p class="text-lg ml-1.5 mt-5 text-white">
-              Skilled in both front-end and back-end technologies, I enjoy
-              building solutions that solve real-world problems and provide a
-              seamless user experience.
+            <p class="text-lg ml-1.5 mt-3 text-white">
+              My expertise spans both front-end and back-end technologies, and I
+              focus on crafting innovative, efficient, and well-designed
+              solutions that deliver a seamless and accessible user experience.
+            </p>
+            <p class="text-lg ml-1.5 mt-3 text-white">
+              I believe in creating digital experiences that bring real value to
+              users.
+            </p>
+            <p class="text-lg ml-1.5 mt-3 font-semibold text-white">
+              I invite you to explore the projects I’ve developed and get to
+              know my approach to building applications that drive results and
+              enhance digital experiences.
             </p>
           </div>
           <div
-            class="w-4/5 h-4/5 border-2 border-orange-200 border-dotted rounded-e-3xl rounded-t-3xl bg-cover bg-center animate-bounce-small opacity-80"
+            class="w-3/5 h-4/5 border-2 border-orange-200 border-dotted rounded-e-3xl rounded-t-3xl bg-cover bg-center animate-bounce-small opacity-80 max-sm:w-full max-sm:h-80 max-sm:bg-indigo-800 max-sm:border-orange-200"
             style="background-image: url(/Protfolio/media/Me.png)"
           ></div>
         </div>
       </section>
-      <section class="bg-gradient-to-b from-indigo-700 to-indigo-900 mb-10">
-        <div>
+      <section
+        class="bg-gradient-to-b from-indigo-700 via-indigo-600 to-indigo-900 mb-10 max-sm:from-indigo-900 max-sm:via-indigo-700 max-sm:to-indigo-900 max-sm:mt-96"
+      >
+        <div class="w-10/12 m-auto max-sm:border-t-2 max-sm:border-t-white">
           <div
-            class="w-3/5 m-auto rounded-2xl border-2 border-orange-400 bg-gradient-to-r from-indigo-500 via-indigo-700 to-indigo-900 mb-20"
+            class="w-3/5 m-auto rounded-2xl border-2 border-orange-400 bg-gradient-to-r from-indigo-500 via-indigo-700 to-indigo-900 mb-20 max-sm:mt-10"
           >
             <h1
               class="text-2xl pl-5 pt-4 pb-3 dancing-script text-center text-white"
@@ -108,10 +121,12 @@
         </div>
         <div
           id="belives-section"
-          class="mt-36 w-11/12 text-center bg-gradient-to-r from-blue-900 via-violet-800 to-blue-900 opacity-100 flex justify-evenly gap-16 rounded-r-3xl border-b-2 border-r-2 border-t-2  border-dotted border-gray-200"
+          class="mt-36 w-11/12 text-center bg-gradient-to-r from-blue-900 via-violet-800 to-blue-900 opacity-90 flex justify-evenly flex-wrap gap-16 rounded-r-3xl border-b-2 border-r-2 border-t-2 border-dotted border-gray-200 max-sm:w-11/12 max-sm:m-auto max-sm:border-2 max-sm:rounded-3xl"
         ></div>
       </section>
-      <div class="bg-gradient-to-b from-indigo-900 via-slate-700 to-indigo-900">
+      <div
+        class="bg-gradient-to-b from-indigo-900 via-slate-600 via-40% to-indigo-900"
+      >
         <section
           id="Projects"
           class="w-3/4 m-auto border-t-2 border-t-white text-center"
@@ -140,9 +155,12 @@
           <h2
             class="text-xl text-magic mt-6 mb-5 bg-gradient-to-t from-white to-orange-400 bg-clip-text text-transparent"
           >
-            < Always happy for new connections
+            < Always happy for new connections >
+          </h2>
+          <h2
+            class="text-2xl text-magic mt-3 mb-4 bg-gradient-to-t from-white to-orange-400 bg-clip-text text-transparent"
+          >
             <i class="fa-regular fa-handshake"></i>
-            >
           </h2>
           <div
             class="w-5/6 m-auto flex justify-center items-center gap-14 text-white text-center p-8"
