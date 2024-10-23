@@ -754,10 +754,12 @@ video {
   width: 100%;
   right: 0;
 }
-@media screen and (max-width: 640px) {
-  .res-hide {
-    display: none !important;
-  }
+
   
+
+@media (max-height: 640px) {
+  #down {
+    margin-top: 700px; /* הקטנת גודל הפונט במסכים נמוכים */
+  }
 }
 
