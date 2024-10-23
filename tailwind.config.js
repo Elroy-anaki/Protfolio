@@ -23,3 +23,15 @@ module.exports = {
   },
   plugins: [],
 }
+
+module.exports = {
+  theme: {
+    extend: {
+      screens: {
+        'sm': '576px', // שינוי של ה-'sm' ל-576 פיקסלים
+      },
+    },
+  },
+  // הגדרות נוספות
+};
+
