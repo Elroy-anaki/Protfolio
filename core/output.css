@@ -757,7 +757,7 @@ video {
 
   
 
-@media (max-height: 640px) {
+@media (max-height: 670px) {
   #down {
     display: none; /* הקטנת גודל הפונט במסכים נמוכים */
   }
