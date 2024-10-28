@@ -2,19 +2,19 @@
   {
     "Name": "Trivia Game",
     "GitHubLink": "https://github.com/Elroy-anaki/Trivia_Game",
-    "Image": "/media/trivia.jpeg",
+    "Image": "/Protfolio/media/trivia.jpeg",
     "lang": ["Python"]
   },
   {
     "Name": "Guess The Word",
     "GitHubLink": "https://github.com/Elroy-anaki/Guess-The-Word",
-    "Image": "/media/guess-the-word.jpeg",
+    "Image": "/Protfolio/media/guess-the-word.jpeg",
     "lang": ["Python"]
 },
 {
     "Name": "Edu Management",
     "GitHubLink": "https://github.com/Elroy-anaki/EduManagment",
-    "Image": "/media/edu-managment.jpg",
+    "Image": "/Protfolio/media/edu-managment.jpg",
     "lang": ["Python", "HTML", "CSS", "JS"]
   },
   {

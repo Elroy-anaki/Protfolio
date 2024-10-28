@@ -3,8 +3,8 @@ const projectsSection = document.querySelector("#projects-section");
 const belivesSection = document.querySelector("#belives-section");
 
 // Define files' path
-const projectsPath = "./core/projects.json"
-const belivesPath = "./core/my-belives.json"
+const projectsPath = "/Protfolio/core/projects.json"
+const belivesPath = "/Protfolio/core/my-belives.json"
 
 // Define variables
 let projects;
